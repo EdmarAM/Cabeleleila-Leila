@@ -1,0 +1,255 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #909090;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #9700b5;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 5%;
+    font-size: 100%;
+    transition: color 0.3s;
+}
+
+header a:hover {
+    color: #5b0065;
+    transition: color 0.3s;
+    border: 3px solid #39003f;
+    border-radius: 5px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.perfil-btn {
+    background-color: #b00000;
+    color: #fff;
+    border: none;
+    padding: 13px 25px;
+    margin: 0.2%;
+    margin-right: 0.5%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.perfil-btn:hover {
+    background-color: #9b0303;
+    transform: scale(110%);
+}
+
+form.logout{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    width: 0;
+    margin: 0;
+    margin-top: 0;
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 2%;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+form h3 {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 1%;
+    margin-bottom: 0.1%;
+}
+
+form input[type="date"] {
+    float: right;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center; 
+}
+
+form input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.dia{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+
+form input[type="submit"] {
+    background-color: #9700b5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form textarea, form input[type="text"] {
+    width: 80%;
+    padding: 1%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #9700b5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #5b0065;
+}
+
+form input[type="submit"]:hover {
+    background-color: #5b0065;
+}
+
+.botao {
+    margin: 0.1%;
+    margin-bottom: 2%;
+    width: 150px;
+    height: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto; /* Centraliza a tabela */
+    margin-bottom:2% ;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: gray;
+}
+
+.Editar{
+    color: blue;
+    text-decoration: none;
+}
+
+.Confirmar{
+    color: rgb(3, 174, 0);
+    text-decoration: none;
+}
+
+.Cancelar{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1% auto;
+    max-width: 1200px;
+}
+
+.container-card {
+    width: calc(28% - 2%);
+    margin-bottom: 2%;
+    margin-right: 2%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.container-card a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.editar{
+    color: blue;
+    text-decoration: none;
+}
+
+.container-card:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Media query para ajustar o layout em telas menores */
+@media only screen and (max-width: 768px) {
+    .container-card {
+        width: calc(50% - 2%);
+    }
+}

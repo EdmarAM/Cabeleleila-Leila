@@ -1,0 +1,14 @@
+O projeto foi montado com base no MVC.
+
+Linguagens Utilizadas: Php,Js,sql (Html,css para a interface do usuario)
+    - PHP foi utilizado para montar a interação do usuario com o banco de dados
+    - Js foi utilizado para ambientação dos valores (limites de valore, limites caracteres e formatação (CPF e TELEFONE))
+    - SQL banco de dados onde foi montado com base no que foi pedido e organizado conforme necessario
+
+O site foi gerado em um servidor local(XAMPP) o qual eu utilizado
+    - Nele foi iniciado o Apache para utilizar o PHP
+    - Tambem o Mysql para montar e utillizar o banco dados
+
+Em geral o projeto foi feito pensando na facilidade do usuario na parte Web(facil acesso) e tambem no gerenciamento do dono do Salão
+ Gerente(ADM) - nivel 1 acesso total as ediçoes e usaurios
+ Cliente - nivel 0 limitado a pedidos e a somente ele

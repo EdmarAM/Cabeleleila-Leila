@@ -1,0 +1,16 @@
+O projeto deve ter um servido local o qual deve ser expecificado na pasta Configuration onde ele deve especificar:
+    - nome do servidor (Ex:"localhost")
+    - nome do dataBase (Ex:"cabeleleila_leila") o qual e montado o banco de dados utilizado
+    - username (No caso do xampp ele e o "root" pode variar de acordo com o servidor usado)
+    - senha do servidor  (No meu caso minha senha ela e vazia entao nao preciso prencher ou seja so coloco "")
+
+Ao iniciar o Xampp deve dar Start no Apache e no Mysql (*obrigatorio)
+    - Colocar a pasta TesteDSIN_Dev/ no htdocs do localhost escolhido (*importante)
+    - Ao iniciar deve abrir um browser de sua prefencia (Ex: "googleChrome" indio usar ele para evitar problemas)
+    - no xampp click em admin no Mysql ira abrir o local dos dataBase
+        - No phpMyadmin click em SQL diretamente e coloque o Model la e execute
+            (Em caso de erro verificar pontuação do sql do Model)
+    - Caso funcione perfeitamente abrir a url do navegardor e Digitar "http://localhost/TesteDSIN_Dev/Dsin_Teste_PraticoDev/"
+    - Pronto pode tester a vontade lembrando que o ADM tem como base esses Valore
+        -INSERT INTO cliente(cpf, nomeCompleto, telefone, email, senha, nivelAcesso)  /*Adicionando ADM (PADRAO) */
+            VALUES ('000.000.000','ADMINISTRADOR','(00) 00000-0000','adm@gmail.com', 'admin123', 1);
